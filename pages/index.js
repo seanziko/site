@@ -12,7 +12,7 @@ export default function Home() {
             <Image src={logoSrc} alt="logo" width={44} height={44} />
             <div className="text-xs font-bold uppercase text-accent">The Soft Life Investor</div>
           </div>
-          <Link href="#buy"><a className="button-primary">Get the Book</a></Link>
+          <Link href="#buy" className="button-primary">Get the Book</Link>
         </div>
       </header>
 
