@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\DELL PC\\\\Documents\\\\ST BOOK\\\\softlife-static\"; \\$raw = Get-Content \\.\\\\index\\.html -Raw; \\$raw = \\$raw -replace '\\(\\?si\\)<div class=\"relative mx-auto my-6 flex h-\\\\\\[210px\\\\\\] w-full max-w-xs items-center justify-center sm:h-\\\\\\[340px\\\\\\] sm:max-w-sm\">', '<button type=\"button\" class=\"hero-book-trigger relative mx-auto my-6 flex h-\\[210px\\] w-full max-w-xs items-center justify-center sm:h-\\[340px\\] sm:max-w-sm bg-transparent border-none p-0 cursor-pointer hover:opacity-90 transition-opacity\" aria-label=\"View 3D book\">'; \\$raw = \\$raw -replace '\\(\\(\\?s\\)<div class=\"animate-book-shadow absolute bottom-2 left-1\\\\/2 h-5 w-2\\\\/3 rounded-\\\\\\[50%\\\\\\]\"\\[\\^>\\]\\*>\\.\\*\\?</div>\\\\s\\*</div>\\)', '\\$1</button>'; Set-Content \\.\\\\index\\.html -Value \\$raw; Write-Output 'Updated hero book to clickable button'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
